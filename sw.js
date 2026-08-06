@@ -2,15 +2,12 @@
 //
 // IMPORTANT: bump CACHE every time you upload a changed index.html,
 // or phones will keep serving the old build from cache.
-const CACHE = "wm-inv-v2.3";
+const CACHE = "wm-inv-v2.4";
 
 const FILES = [
   "./",
   "./index.html",
-  "./manifest.json",
-  "./icon-192.png",
-  "./icon-512.png",
-  "./icon-512-maskable.png"
+  "./manifest.json"
 ];
 
 // Install: pre-cache everything the app needs to run with no signal.
